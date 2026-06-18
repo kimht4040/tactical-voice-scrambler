@@ -1,0 +1,37 @@
+# =========================
+# C/C++ Build Files (Edge Node)
+# =========================
+*.o
+*.out
+*.exe
+build/
+bin/
+CMakeCache.txt
+CMakeFiles/
+Makefile
+cmake_install.cmake
+
+# =========================
+# Python Files (C2 Server)
+# =========================
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+env/
+.env
+
+
+# Yocto / Bitbake Artifacts
+
+build/tmp/
+build/sstate-cache/
+build/downloads/
+*.swp
+
+# =========================
+# OS & IDE Files
+.DS_Store
+.vscode/
+.idea/
+*.log
